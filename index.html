@@ -7,9 +7,307 @@
     <meta name="description" content="Ashik Ratnani - Home : ">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <title>Ashik Ratnani</title>
+  <style type="text/css">
+  html
+{ height: 100%;}
 
-    <title>Ashik Ratnani - Home</title>
-  </head>
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em arial, sans-serif;
+  background: #F6F4F0 url(images/pattern.png);
+  color: #47433F;}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ color: #362C20;
+  padding: 0 0 5px 0;}
+
+h1, h4
+{ font: normal 175% "lucida sans unicode", arial;
+  margin: 0 0 15px 0;
+  padding: 15px 20px 5px 0;}
+
+h2, h5
+{ color: #B60000;
+  padding: 10px 0 15px 0;
+  font: normal 120% arial;}
+
+h3, h6
+{ color: #888;
+  font: italic 95% arial;
+  padding: 0 0 15px 0;}
+
+h4, h6
+{ color: #B60000;}
+
+h5
+{ color: #362C20;}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #A4AA04;}
+
+a:hover
+{ text-decoration: none;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+blockquote
+{ margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;}
+
+ul
+{ margin: 2px 0 22px 17px;}
+
+ul li
+{ list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;}
+
+ol
+{ margin: 8px 0 22px 25px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#main, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header
+{ background: url(images/back.png) repeat-x;
+  height: 185px;}
+
+#logo
+{ width: 950px;
+  position: relative;
+  height: 193px;
+  background: url(images/green_logo.jpg) no-repeat;
+}
+
+#logo #logo_text 
+{ position: absolute; 
+  top: 10px;
+  left: 0;}
+
+#logo h1
+{ font: normal 300% 'century gothic', arial, sans-serif;
+  border-bottom: 0;
+  text-transform: none;
+  margin: 0;
+  padding: 45px 0 0 0;
+  background: transparent;
+  color: #FFF;}
+
+#menubar
+{ width: 875px;
+  height: 48px;
+  padding: 0 0 0 4px;
+  position: absolute;
+  bottom: 0;} 
+
+ul#menu
+{ float: right;
+  height: 40px;
+  background: url(images/menu.png) repeat-x;
+  width: auto;}
+
+ul#menu li
+{ float: left;
+  margin: 6px 0 0 0;
+  padding: 0 0 0 0;
+  list-style: none;
+  width: auto;}
+
+ul#menu li a
+{ font: normal 100% 'lucida sans unicode', arialserif;
+  display: block; 
+  float: left; 
+  height: 12px;
+  padding: 2px 16px 8px 16px;
+  text-align: center;
+  background: transparent;
+  color: #FFF;
+  text-transform: uppercase;
+  border-left: 1px solid #FFCB99;
+  border-right: 1px solid #AE5A00;
+  text-decoration: none;
+  width: auto;} 
+
+ul#menu li a.first
+{ border-left: 0;}
+
+ul#menu li a.last
+{ border-right: 0;}
+
+ul#menu li a:hover, ul#menu li.tab_selected a, ul#menu li.tab_selected a:hover
+{ color: #111;}
+
+#site_content
+{ width: 877px;
+  overflow: hidden;
+  margin: 20px auto} 
+
+.sidebar
+{ float: right;
+  width: 235px;
+  padding: 0 15px 20px 15px;}
+
+.sidebar h2
+{ padding: 0 0 5px 0;}
+
+.sidebar ul
+{ width: 190px; 
+  padding: 4px 0 0 0; 
+  margin: 4px 0 30px 0;}
+
+.sidebar li
+{ list-style: none; 
+  padding: 0 0 7px 0; }
+
+.sidebar li a, .sidebar li a:hover
+{ padding: 0 0 0 25px;
+  display: block;
+  background: transparent url(images/link.png) no-repeat left center;} 
+
+.sidebar li a.selected
+{ color: #444;} 
+
+#content
+{ text-align: left;
+  width: 610px;
+  padding: 0;}
+
+#footer
+{ width: 100%;
+  font-family: sans-serif;
+  font-size: 90%;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: #635B53 url(images/footer.png) repeat-x;
+  color: #A8AA94;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#footer a, #footer a:hover
+{ background: transparent;
+  color: #A8AA94;
+  text-decoration: none;}
+
+#footer a:hover
+{ background: transparent;
+  color: #FFF;}
+
+.yellow
+{ color: #F7C015;}
+
+.blue
+{ color: #33A994;}
+
+.orange
+{ color: #FF9417;}
+
+.red
+{ color: #C80500;}
+
+.purple
+{ color: #EB0FFF;}
+
+.green
+{ color: #A4AA04;}
+
+.form_settings
+{ margin: 15px 0 0 0;}
+
+.form_settings p
+{ padding: 0 0 4px 0;}
+
+.form_settings span
+{ float: left; 
+  width: 200px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ padding: 2px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;}
+  
+.form_settings .submit
+{ font: 100% arial; 
+  border: 1px solid; 
+  width: 99px; 
+  margin: 0 0 0 206px; 
+  height: 26px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #63574B; 
+  color: #FFF;}
+
+.form_settings textarea, .form_settings select
+{ font: 100% arial; 
+  width: 299px;}
+
+.form_settings select
+{ width: 304px;}
+
+.form_settings .checkbox
+{ margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;}
+
+.separator
+{ width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;}
+  
+table
+{ margin: 10px 0 30px 0;}
+
+table tr th, table tr td
+{ background: #63574B;
+  color: #FFF;
+  padding: 7px 4px;}
+  
+table tr td
+{ background: #C8BFB0;
+  color: #47433F;
+  border-top: 1px solid #EDEBE5;}
+  </style>
+</head>
 
   <body>
 
@@ -27,9 +325,90 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <p>Hello World!</p>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="orange", allows you to change the colour of the text - other classes are: "blue", "green", "red", "purple" and "yellow" -->
+          <h1><span class="orange">Ashik</span> Ratnani</h1>
+        </div>
+        <div id="menubar">
+          <ul id="menu">
+            <!-- put class="tab_selected" in the li tag for the selected page - to highlight which page you're on -->
+            <!-- put class="first" in the a tag for the first page in the menu -->
+            <!-- put class="last" in the a tag for the last page in the menu -->
+            <li class="tab_selected"><a class="first" href="index.html">Home</a></li>
+            <li><a href="files/Resume.pdf">Resume</a></li>
+			<li><a href="files/Curriculum%20Vitae.pdf">Curriculum Vitae</a></li>
+            <li><a class="last" href="mailto:anr58@cornell.edu">Contact Me</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+		<img src="images/me.jpg" width=100% alt="Picture of Me" />
+        <H1>Most Significant Bits</H1>
+        <H3 style="padding-bottom: 0">Contact Info</H3>
+		<p style="padding-top: 0">anr58@cornell.edu</p>
+		<H3 style="padding-bottom: 0">Address</H3>
+		<p  style="padding-top: 0">319 Highland Rd, Apt - 4C, Ithaca, NY - 14850</p>
+        <H2>On the Web</H2>
+		<ul>
+		<li>
+			<a href="/web/20141216192857/http://www.github.com/ashikratnani" target="_blank">Github</a>
+		</li>
+		<li>
+			<a href="/web/20141216192857/http://www.facebook.com/Ashik.Ratnani" target="_blank">Facebook</a>
+		</li>
+		<li>
+			<a href="/web/20141216192857/http://www.linkedin.com/in/ashikratnani" target="_blank">Linked In</a>
+		</li>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <p style="text-align: justify;">I did my Bachelors in Computer Science from Nirma University and Masters in Computer Science from Cornell University. 
+		Currently, I am working as a Software Engineer at Oracle Inc. in the Solaris Core Kernel Group. 
+		My interests broadly include operating systems and cloud computing. 
+		</p>
+		<H1>Research Projects</H1>
+		<H2>Grid Control: Software platform to support the Smartgrid</H2>
+		<p style="text-align: justify;">
+		The current power grid is a dinosaur dating back to late 1800s. It is prone to outages caused by oscillatory disturbances. Outages cost US economy $80 billion every year.
+		It has high distribution losses which costs US economy nearly $20 billion every year. The SmartGrid is equipped with many networked sensors. 
+		This sensor data can be used by real time analysis applications to provide better integration of variable renewable energy sources such as wind and solar 
+		opportunities for dynamic pricing, demand response load balancing, and many more. 
+		Since there are 15000 such sensors distributed all over the US, it would be very difficult to have system running on a single server. So I, in a team of 4, have built a distributed system to collect sensor data from the SmartGrid and apply machine learning techniques to estimate the state of the grid.
+		We have used techniques like sharding and replication to make the system reliable and scalable. 
+		We have adopted a model where we have a central management system, which is consistently replicated on multiple machines, which manages the network overlay of the system which makes the system fault tolerant.
+		We reduce the effect spicky nature of TCP, which causes variation in the latencies, by sending sensor data over mulitple streams to multiple nodes. This approach not only reduces the variation in the latencies but also makes the system tolerant to weird network connection failures.
+		 </p>
+		<H2>Cloud based Execution Engine for GE MAPS and MARS</H2>
+		<p style="text-align: justify;">
+		The General Electric (GE)'s Energy Consulting group has developed the Concorda Software Suites - MAPS (Multi Area Production Simulation Software) and MARS (Multi Area Reliability Simulation Software). 
+		These products are internationally known and widely used for planning and simulating electric power grids, assessing the economic performance of large electricity markets, and evaluating generation reliability. 
+		As the size of the systems modeled by the software and the number of sensitivities increase, the need to improve computation time for the analysis engines has become increasingly crucial. 
+		To address these issues, we have developed a framework that enables these applications to be easily executed in a cloud computing environment, which provides reliable, fast computation as well as an interface for clients to monitor their job status. 
+		Using this framework, the clients can take the advantage of cloud based execution and enjoy a significant computation time reduction. 
+		</p>
+		<H2>Running Linux based GCC code in Windows</H2>
+		<p style="text-align: justify;">
+		</p>
+		<H1>Contribution to Open Source Projects</H1>
+		<H2>Node.JS and Ruby Bindings for HyperDex</H2>
+		<p style="text-align: justify;">
+		</p>
+		</div>
+    </div>
+    <div id="footer">Copyright &copy; 2012 Ashik Ratnani | <a href="/web/20141216192857/http://www.dcarter.co.uk/">design inspired by dcarter</a></div>
+  </div>
 
-<p>This is my first github page.</p>
+
+
+
+
+
       </section>
     </div>
 
